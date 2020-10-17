@@ -1,10 +1,9 @@
-import { Module } from "@nestjs/common";
-import { StaticModule } from "./static/static.module";
+import { Module } from '@nestjs/common';
+import { StaticModule } from './static/static.module';
 
 @Module({
-  imports: [StaticModule],
+  imports: [StaticModule.register(process.env.NODE_ENV !== 'development')],
   controllers: [],
-  providers: []
+  providers: [],
 })
-export class AppModule {
-}
+export class AppModule {}
