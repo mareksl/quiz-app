@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="content">
     <header>
       <slot name="header"></slot>
     </header>
@@ -15,4 +15,9 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped lang="scss">
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+</style>

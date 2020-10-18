@@ -1,3 +1,17 @@
 {
-  "message": "hello i18n !!"
+  "message": "hello i18n !!",
+  "main": {
+    "home": {
+      "startGame":"New game",
+      "welcomeMsg": "Welcome to Quiz App",
+      "joinGame": "Join room"
+    },
+    "createGame": {
+      "title": "Create a new game"
+    },
+    "joinRoom": {
+      "title": "Join room"
+    }
+    
+  }
 }
